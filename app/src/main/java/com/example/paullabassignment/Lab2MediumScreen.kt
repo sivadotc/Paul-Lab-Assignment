@@ -22,7 +22,7 @@ import com.ramcosta.composedestinations.navigation.DestinationsNavigator
 fun Lab2MediumScreen(navigator: DestinationsNavigator){
     Box(modifier = Modifier
         .fillMaxSize()
-        .background(DeepBlue)){
+        .background(Brown)){
         Column(modifier = Modifier
             .fillMaxWidth()
             .padding(15.dp)

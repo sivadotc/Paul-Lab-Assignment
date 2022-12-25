@@ -14,7 +14,7 @@ import com.ramcosta.composedestinations.navigation.DestinationsNavigator
 fun Lab2Screen(navigator: DestinationsNavigator){
     Box(modifier = Modifier
         .fillMaxSize()
-        .background(DeepBlue)){
+        .background(Brown)){
         val windowInfo = rememberWindowInfo()
         if (windowInfo.screenWidthInfo is WindowInfo.WindowType.Compact) {
             Lab2CompactScreen(navigator)

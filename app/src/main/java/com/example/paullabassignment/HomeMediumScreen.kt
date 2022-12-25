@@ -23,8 +23,8 @@ fun HomeMediumScreen(navigator: DestinationsNavigator){
             Column(modifier = Modifier
                 .weight(0.75f)
                 .fillMaxSize(), verticalArrangement = Arrangement.SpaceEvenly) {
-                GreetingSection(name = "Priya")
-                ChipSectionMedium(chips = listOf("Priya","2019WA86196","Lab 3","SDPD","CSIWZ424"))
+                GreetingSection(name = "Paul")
+                ChipSectionMedium(chips = listOf("Paul","2019WA86953","Lab 3","SDPD","CSIWZ424"))
 
             }
             Column(modifier = Modifier

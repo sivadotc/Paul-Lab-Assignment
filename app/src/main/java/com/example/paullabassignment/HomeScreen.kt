@@ -13,7 +13,7 @@ import com.ramcosta.composedestinations.navigation.DestinationsNavigator
 @Composable
 fun HomeScreen(navigator: DestinationsNavigator) {
     Box(modifier = Modifier
-        .background(DeepBlue)
+        .background(Brown)
         .fillMaxSize()
     ){
         val windowInfo = rememberWindowInfo()
