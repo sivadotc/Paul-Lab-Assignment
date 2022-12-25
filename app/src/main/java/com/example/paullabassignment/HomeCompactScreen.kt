@@ -27,7 +27,7 @@ import com.example.paullabassignment.ui.theme.Typography
 fun HomeCompactScreen(){
     Column {
         GreetingSection(name = "Paul")
-        ChipSection(chips = listOf("Paul","2019WA86953","Lab 3","SDPD","CSIWZ424"))
+        ChipSection(chips = listOf("Paul","2019WA86953","Lab 4","SDPD","CSIWZC424"))
         ObjectiveSection()
         CurrentLabSection()
     }
@@ -126,7 +126,7 @@ fun ObjectiveSection() {
                 .fillMaxWidth()
         ) {
             Text(
-                text = "Lab 3 Objective",
+                text = "Lab 4 Objective",
                 style = Typography.h1
             )
             Spacer(modifier = Modifier.height(10.dp))

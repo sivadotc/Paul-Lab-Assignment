@@ -25,7 +25,7 @@ fun HomeMediumScreen() {
             .weight(0.75f)
             .fillMaxSize(), verticalArrangement = Arrangement.SpaceEvenly) {
             GreetingSection(name = "Paul")
-            ChipSectionMedium(chips = listOf("Paul","2019WA86953","Lab 3","SDPD","CSIWZ424"))
+            ChipSectionMedium(chips = listOf("Paul","2019WA86953","Lab 4","SDPD","CSIWZC424"))
 
         }
         Column(modifier = Modifier
